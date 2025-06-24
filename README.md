@@ -33,9 +33,17 @@ Algorithm pseudocode             |  Algorithm schematics
 
 ## Results
 
-![alt text](https://github.com/BruNicoletta/Sparse-Cost-Robust-Learning/blob/main/Images/20%20June%20-%20preprocess_bank_marketing%20-%20many%20intervals/Comparison_val0.1_repeat1.png) 
+### UCI Bank Marketing: [Dataset - Kaggle link](https://archive.ics.uci.edu/dataset/222/bank+marketing)
 
-![alt text](https://github.com/BruNicoletta/Sparse-Cost-Robust-Learning/blob/main/Images/20%20June%20-%20preprocess_bank_marketing%20-%20many%20intervals/sparsity_levels(validationAvailable).png) 
+ Example for 10% of cost data available    |  Results with varying sparisty levels
+:-------------------------:|:-------------------------:
+![alt text](https://github.com/BruNicoletta/Sparse-Cost-Robust-Learning/blob/main/Images/20%20June%20-%20preprocess_bank_marketing%20-%20many%20intervals/Comparison_val0.1_repeat1.png)   | ![alt text](https://github.com/BruNicoletta/Sparse-Cost-Robust-Learning/blob/main/Images/20%20June%20-%20preprocess_bank_marketing%20-%20many%20intervals/sparsity_levels(validationAvailable).png) 
+
+### Default of Credit Card Clients: [Dataset - Kaggle link](https://archive.ics.uci.edu/dataset/350/default+of+credit+card+clients#)
+
+ Example for 10% of cost data available    |  Results with varying sparisty levels
+:-------------------------:|:-------------------------:
+![alt text](https://github.com/BruNicoletta/Sparse-Cost-Robust-Learning/blob/main/Images/June%2017%20-%20default%20credit%20card%2013000%20with%20amount%20as%20feature/Comparison_val0.1_repeat1.png)   | ![alt text](https://github.com/BruNicoletta/Sparse-Cost-Robust-Learning/blob/main/Images/June%2017%20-%20default%20credit%20card%2013000%20with%20amount%20as%20feature/results_with_varying_sparsity_levels.png) 
 
 
 ## Absract of the paper
