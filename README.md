@@ -19,7 +19,7 @@ In cost-sensitive learning, optimizing for expected real-world costs or profits 
 
 To address this, the method builds upon the meta-learning framework introduced by Ren et al. (2019) [HyperLink to be added properly]. Instead of learning weights to improve robustness to noisy labels, the method learns to reweight costless instances such that the resulting gradient updates improve performance on the subset of data with observed cost information. 
 
-This reweighting strategy allows cost knowledge from instances with available cost infromation (used in inner loop) to guide the learning on samples without cost information (integrated in the outer loop). By doing so, the model can leverage the full training dataset while maintaining alignment with cost-sensitive objectives. The learned weights emphasize instances that exhibit patterns consistent with cost-aware decision-making and down-weight those that lead to gradient updates misaligned with the cost-sensitive objective.
+This reweighting strategy allows cost knowledge from instances with available cost information (used in inner loop) to guide the learning on samples without cost information (integrated in the outer loop). By doing so, the model can leverage the full training dataset while maintaining alignment with cost-sensitive objectives. The learned weights emphasize instances that exhibit patterns consistent with cost-aware decision-making and down-weight those that lead to gradient updates misaligned with the cost-sensitive objective.
 
 **This approach offers a structured and scalable solution for training deep learning models when instance-level cost information is available for only a small subset of the data — a common limitation in real-world scenarios.**
 
