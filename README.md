@@ -4,7 +4,7 @@ Topic : Robust Instance-dependent reweighting method for Cost sensitive Learning
 
 The code of this repo proposes a new appraoch to integrate instance-cost information in the training phase of a neural network when the this cost information is only available for a very small minority of instances. 
 
-![alt text](https://github.com/BruNicoletta/Sparse-Cost-Robust-Learning/blob/main/Images/AlgorithmSchematics.png) 
+![alt text](https://github.com/BruNicoletta/Sparse-Cost-Robust-Learning/blob/main/Images/Algo-SparseCost.png) 
 
 Some important links:
  - Link to the paper manuscript: [Paper - highly recommended read - Acces currently restricted: I will make it public as soon as paper is fully reviewed](https://fr.overleaf.com/project/675ce6fffe4b46458530152d) 
@@ -28,7 +28,7 @@ This reweighting strategy allows cost knowledge from instances with available co
 
 Algorithm pseudocode             |  Algorithm schematics
 :-------------------------:|:-------------------------:
-![](https://github.com/BruNicoletta/Sparse-Cost-Robust-Learning/blob/main/Images/Algorithm_pseudoCode.png)   |  ![](https://github.com/BruNicoletta/Sparse-Cost-Robust-Learning/blob/main/Images/AlgorithmSchematics.png) 
+![](https://github.com/BruNicoletta/Sparse-Cost-Robust-Learning/blob/main/Images/Algorithm_pseudoCode.png)   |  ![](https://github.com/BruNicoletta/Sparse-Cost-Robust-Learning/blob/main/Images/Algo-SparseCost.png) 
 
 
 ## Results
