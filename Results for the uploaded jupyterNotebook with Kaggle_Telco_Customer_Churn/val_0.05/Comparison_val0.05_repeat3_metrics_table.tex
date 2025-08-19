@@ -1,0 +1,12 @@
+\begin{tabular}{lcccccccc}
+\toprule
+Method & Final Loss & Avg Loss & Final Acc & Max Acc & Final Cost & Min Cost & Final Saving Rate & Max Saving Rate \\
+\midrule
+Sparse-Cost-Robust & 49.8387 & 49.6633 & 0.6932 & 0.7045 & 52846.7031 & 41732.1016 & 0.1822 & 0.3542 \\
+Classic BCE & 0.2439 & 0.3151 & 0.7443 & 0.7812 & 84566.5000 & 77752.8047 & -0.3086 & -0.2032 \\
+2-Step: Linear Regression & 44.6941 & 49.7687 & 0.6861 & 0.7102 & 44295.3008 & 41017.5000 & 0.3146 & 0.3653 \\
+2-Step: Xgboost & 44.4567 & 50.1663 & 0.6918 & 0.7116 & 45559.5000 & 41172.1992 & 0.2950 & 0.3629 \\
+Classic AEC: known cost & 45.2238 & 49.9498 & 0.6918 & 0.7159 & 47275.0000 & 41471.8984 & 0.2684 & 0.3582 \\
+Classic AEC: class cost & 44.7050 & 49.9290 & 0.6875 & 0.7287 & 44644.3047 & 42015.3945 & 0.3092 & 0.3498 \\
+\bottomrule
+\end{tabular}

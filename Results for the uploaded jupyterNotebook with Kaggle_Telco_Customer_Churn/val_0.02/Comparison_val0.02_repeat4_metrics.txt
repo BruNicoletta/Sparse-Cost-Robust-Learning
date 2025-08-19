@@ -1,0 +1,60 @@
+Method: Sparse-Cost-Robust
+  Final Loss: 35.1252
+  Average Loss: 33.4510
+  Final Accuracy: 0.7031
+  Max Accuracy: 0.7344
+  Final Cost: 44130.6016
+  Min Cost: 41969.8984
+  Final Saving Rate: 0.3247
+  Max Saving Rate: 0.3578
+
+Method: Classic BCE
+  Final Loss: 0.2434
+  Average Loss: 0.3118
+  Final Accuracy: 0.7301
+  Max Accuracy: 0.8026
+  Final Cost: 91258.2891
+  Min Cost: 72896.0000
+  Final Saving Rate: -0.3964
+  Max Saving Rate: -0.1154
+
+Method: 2-Step: Linear Regression
+  Final Loss: 45.1329
+  Average Loss: 50.2739
+  Final Accuracy: 0.6946
+  Max Accuracy: 0.7074
+  Final Cost: 47465.8047
+  Min Cost: 41383.6992
+  Final Saving Rate: 0.2737
+  Max Saving Rate: 0.3668
+
+Method: 2-Step: Xgboost
+  Final Loss: 44.2950
+  Average Loss: 49.9985
+  Final Accuracy: 0.6875
+  Max Accuracy: 0.7031
+  Final Cost: 42371.1992
+  Min Cost: 39723.5000
+  Final Saving Rate: 0.3516
+  Max Saving Rate: 0.3922
+
+Method: Classic AEC: known cost
+  Final Loss: 45.1209
+  Average Loss: 50.3301
+  Final Accuracy: 0.7074
+  Max Accuracy: 0.7216
+  Final Cost: 44195.8047
+  Min Cost: 40453.3008
+  Final Saving Rate: 0.3237
+  Max Saving Rate: 0.3810
+
+Method: Classic AEC: class cost
+  Final Loss: 43.9845
+  Average Loss: 49.2398
+  Final Accuracy: 0.7017
+  Max Accuracy: 0.7102
+  Final Cost: 43907.3008
+  Min Cost: 41709.2031
+  Final Saving Rate: 0.3281
+  Max Saving Rate: 0.3618
+
